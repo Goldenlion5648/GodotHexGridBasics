@@ -15,4 +15,3 @@ func _input(event):
 								.get_alternative_tiles_count(current_atlas_coords)
 			set_cell(main_layer, pos_clicked, main_atlas_id, current_atlas_coords, 
 							(current_tile_alt + 1) %  number_of_alts_for_clicked)
-get_cell_atlas_coords()
