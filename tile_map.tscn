@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://dyah0r3nn25pi"]
+
+[ext_resource type="Texture2D" uid="uid://c3kbhnc3wyuig" path="res://hex_grid.png" id="1_y5fec"]
+[ext_resource type="Script" path="res://tile_map_controller.gd" id="2_ays4b"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dcyy2"]
+texture = ExtResource("1_y5fec")
+margins = Vector2i(9, 8)
+separation = Vector2i(18, 0)
+texture_region_size = Vector2i(110, 96)
+0:0/next_alternative_id = 2
+0:0/0 = 0
+0:0/1 = 1
+0:0/1/modulate = Color(0.0862745, 1, 0.443137, 1)
+1:0/0 = 0
+2:0/next_alternative_id = 4
+2:0/0 = 0
+2:0/1 = 1
+2:0/1/modulate = Color(0.113725, 1, 1, 1)
+2:0/2 = 2
+2:0/2/modulate = Color(1, 0.0470588, 1, 1)
+2:0/3 = 3
+2:0/3/modulate = Color(1, 1, 0.0431373, 1)
+
+[sub_resource type="TileSet" id="TileSet_lbaku"]
+tile_shape = 3
+tile_offset_axis = 1
+tile_size = Vector2i(102, 94)
+sources/0 = SubResource("TileSetAtlasSource_dcyy2")
+
+[node name="TileMap" type="TileMap"]
+position = Vector2(59, 112)
+tile_set = SubResource("TileSet_lbaku")
+format = 2
+layer_0/tile_data = PackedInt32Array(0, 131072, 0, 1, 0, 0, 65536, 0, 0, -65535, 65536, 0, 2, 65536, 0, 3, 65536, 0, 65538, 131072, 0, 65539, 131072, 0, 65540, 131072, 0)
+script = ExtResource("2_ays4b")
