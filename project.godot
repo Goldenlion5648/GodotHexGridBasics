@@ -10,10 +10,10 @@ config_version=5
 
 [application]
 
-config/name="HexGridVideo"
+config/name="Hex Grid Basics With Video"
 run/main_scene="res://tile_map.tscn"
 config/features=PackedStringArray("4.1", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://icon.png"
 
 [rendering]
 

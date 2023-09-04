@@ -2,6 +2,7 @@ extends TileMap
 
 const main_layer = 0
 const main_atlas_id = 0
+const this_was_great = "yup"
 
 func _input(event):
 	if event is InputEventMouseButton:

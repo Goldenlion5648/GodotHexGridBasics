@@ -1,5 +1,5 @@
 # Hex Grid, Tilemap, and Tileset Basics
-This is the project that goes with this video:
+This project goes with this video (I made the project and video):
 
 https://youtu.be/1qmXFIJU1QE
 

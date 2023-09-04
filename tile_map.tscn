@@ -32,5 +32,5 @@ sources/0 = SubResource("TileSetAtlasSource_dcyy2")
 position = Vector2(59, 112)
 tile_set = SubResource("TileSet_lbaku")
 format = 2
-layer_0/tile_data = PackedInt32Array(0, 131072, 0, 1, 0, 0, 65536, 0, 0, -65535, 65536, 0, 2, 65536, 0, 3, 65536, 0, 65538, 131072, 0, 65539, 131072, 0, 65540, 131072, 0)
+layer_0/tile_data = PackedInt32Array(0, 131072, 0, 1, 0, 0, 65536, 65536, 0, -65535, 65536, 0, 2, 65536, 0, 3, 65536, 0, 65538, 131072, 0, 65539, 131072, 0, 65540, 131072, 0, 65537, 65536, 0, 65535, 0, 0, 131071, 0, 0, 131072, 0, 0, 131074, 0, 0)
 script = ExtResource("2_ays4b")
